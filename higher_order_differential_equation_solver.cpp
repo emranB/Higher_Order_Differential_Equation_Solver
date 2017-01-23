@@ -1,9 +1,3 @@
-
-
-/*********************** Question 1 source file ********************/
-
-/*  File: testsolve.cpp 
-    test the solve function for the matrix class */
     
 #include "matrix.h"
 #include "matrix.cpp"
@@ -109,7 +103,6 @@ matrix solve(matrix a, matrix b)
 }
 
 
-/*********************** Question 1 output file ********************/
 
 a =
      1.00000     2.00000
@@ -133,7 +126,6 @@ check a * x should be b
 
 Press any key to continue . . .
 
-/*********************** Question 2 source file ********************/
 
 /*  File: testinverse.cpp 
     test the inverse function for the matrix class */
@@ -176,7 +168,7 @@ matrix inverse(const matrix& a)
 }
 
 
-/*********************** Question 2 output file ********************/
+/***********************  output file ********************/
 
 a =
      1.00000     2.00000
@@ -195,7 +187,6 @@ check a * x should be the identity matrix
 
 Press any key to continue . . .
 
-/*********************** Question 3 source file ********************/
 
 /*  File: testleastsquares.cpp 
     test the least squares function for the matrix class */
@@ -239,7 +230,7 @@ matrix leastsquares(const matrix& a, const matrix& b)
     return x;
 }
 
-/*********************** Question 3 output file ********************/
+/***********************  output file ********************/
 
 a =
      1.00000     2.00000
@@ -266,7 +257,6 @@ check a * x should be as close to b as possible
 
 Press any key to continue . . .
 
-/*********************** Question 4 source file ********************/
 
 /*  File: testpseudoinverse.cpp 
     test the pseudoinversefunction for the matrix class */
@@ -305,7 +295,7 @@ matrix pseudoinverse(const matrix& a)
     return b;
 }
 
-/*********************** Question 4 output file ********************/
+/***********************  output file ********************/
 
 a =
      1.00000     2.00000
